@@ -46,7 +46,4 @@ public class OrderService {
         orderRepository.deleteOrderById(orderId);
     }
 
-    public void addPartner(String partnerId) {
-        orderRepository.addPartner(partnerId);
-    }
 }
